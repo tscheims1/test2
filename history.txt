@@ -1,0 +1,20 @@
+  680  vim test
+  681  ls -alh
+  682  git status
+  683  git add test 
+  684  gi status
+  685  git status
+  686  git commit -m 'test'
+  687  git status
+  688  git push origin master
+  689  git branch
+  690  git branch test2
+  691  gi status
+  692  git checkout test2 
+  693  vim test 
+  694  git status
+  695  git commit -am 'test222'
+  696  git push origin test2 
+  697  git checkout master
+  698  git pull
+  699  history | tail -20 > history.txt
